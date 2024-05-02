@@ -18,7 +18,7 @@ export const dataset = process.env.SANITY_STUDIO_DATASET
 export const productionUrl = process.env.SANITY_STUDIO_PRODUCTION_URL
 export const previewUrl = process.env.SANITY_STUDIO_PREVIEW_URLstruc
 export const netlifySiteId = process.env.SANITY_STUDIO_NETLIFY_SITE_ID
-export const netlifyBuildHookId = process.env.SANITY_STUDIO_NETLIFY_BUILD_HOOK_ID
+export const netlifyBuildHookId = process.env.SANITY_STUDIO_NETLIFY_API_BUILD_HOOK_ID
 
 export default defineConfig({
   name: 'martillo-starter',
