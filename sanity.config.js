@@ -21,8 +21,8 @@ export const netlifySiteId = process.env.SANITY_STUDIO_NETLIFY_SITE_ID
 export const netlifyBuildHookId = process.env.SANITY_STUDIO_NETLIFY_BUILD_HOOK_ID
 
 export default defineConfig({
-  name: 'default',
-  title: 'Martillo Studio',
+  name: 'martillo-starter',
+  title: 'Martillo Starter',
   projectId: projectId,
   dataset: dataset,
   icon: BrandLogo,
